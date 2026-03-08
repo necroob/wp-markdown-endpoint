@@ -5,7 +5,7 @@ Tags: markdown, REST API, content negotiation, headless, API
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 8.0
-Stable tag: 1.1.0
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,7 +67,7 @@ Title, publication date, author display name, canonical URL, tags (if any), cate
 
 == Changelog ==
 
-= 1.1.2 =
+= 1.1.3 =
 * Add transient caching for generated Markdown output, automatically invalidated on post save.
 * Add `wpmd_enabled_post_ids` filter to restrict .md support to specific post IDs.
 * Add `wpmd_cache_ttl` filter to control cache duration.
